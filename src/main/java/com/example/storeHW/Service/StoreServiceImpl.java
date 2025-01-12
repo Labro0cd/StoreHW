@@ -17,6 +17,6 @@ public class StoreServiceImpl implements StoreService {
 
     @Override
     public List<Integer> storeGet() {
-        return List.of();
+        return order.getOrder();
     }
 }
